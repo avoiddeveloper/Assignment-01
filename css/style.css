@@ -10,7 +10,7 @@ ul,li {
     list-style-type: none;
     display: inline-block;
 }
-a  {
+a {
    text-decoration: none; 
 }
 .container {
@@ -19,4 +19,66 @@ a  {
 }
 
 /* Navbar Part CSS*/
+#navbar {
+    padding: 38px 0px;
+}
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 28px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.navlink a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #0D1321;
+    padding: 17px 24px;
+    border: 1px solid #0D1321;
+    border-radius: 5px;
+    transition: all linear 0.2s;
+}
+.navlink a:hover {
+    background-color: #0D1321;
+    color: #fff;
+}
 
+
+/* Banner Part CSS */
+#banner {
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0px 45px 0px;
+}
+.banner_container {
+    text-align: center;
+}
+.banner_container h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #0D1321;
+    margin: 32px 0px 24px 0px;
+}
+.banner_container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    margin-bottom: 32px;
+}
+.banner_container a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #0D1321;
+    padding: 21px 24px;
+    border: 1px solid #0D1321;
+    border-radius: 5px;
+    transition: all linear 0.2s;
+}
+.banner_container a:hover {
+    background-color: #0D1321;
+    color: #fff;
+}
