@@ -48,7 +48,6 @@ a {
     color: #fff;
 }
 
-
 /* Banner Part CSS */
 #banner {
     background-image: url(../assets/Hero-bg.png);
@@ -87,7 +86,7 @@ a {
     color: #fff;
 }
 
-/* Taile Part CSS */
+/* Title Part CSS */
 .title_container {
     text-align: center;
 }
@@ -145,7 +144,6 @@ a {
     border-radius: 5px;
     transition: all linear 0.2s;
 }
-
 .left_whyDev a:hover {
     background-color: #0D1321;
     color: #fff;
@@ -153,7 +151,6 @@ a {
 .right_whyDev img {
     width: 100%;
 }
-
 
 /* Inspiration Part CSS */
 #inspiration {
@@ -243,6 +240,7 @@ a {
     color: #0D1321;
 }
 
+/* Support Part CSS */
 #support {
     background: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(../assets/handshake.jpg);
     background-position: center;
